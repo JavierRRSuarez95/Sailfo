@@ -1,6 +1,3 @@
-Set WshShell = WScript.CreateObject("WScript.Shell") 
-
-WshShell.Run "programa.exe /SILENT", 1, True
 Call RunAndReport("192.168.1.187", "2.0.50727")
 
 Sub RunAndReport(site, strVersions)
